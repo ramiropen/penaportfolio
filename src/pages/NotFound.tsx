@@ -6,15 +6,21 @@ import '../images/404BG.jpg';
 export default function NotFound() {
   return (  
     <div className="notFoundWrapper">
+      {/* background image */}
       <div className="bgNotFound">
         <img src="new-portfolio\src\images\404BG.jpg" alt="" className="" />
       </div>
+      {/* return home button */}
       <div className="notFoundP">
-        
-        <h2>Uh Oh!</h2>
-        <p>Looks like Simba has some explaining to do because something is not adding up. Lets try again.</p>
-        <Link className="404link" to = '/'>Return to Home Page</Link>
+        <h2>Uh Oh 404!</h2>
+        <p>Looks like Mufasa has some explaining to do. Lets try again.</p>
+        <button className="homeButton"> 
+          <Link className="notLink" to = '/'>Return to Home Page</Link>
+        </button>
       </div>
+
     </div>
   );
 }
+
+
