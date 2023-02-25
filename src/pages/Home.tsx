@@ -10,6 +10,7 @@ export default function Home() {
         <img src="src\images\home-BG.jpg" alt="" className="" />
       </div>
 
+      {/* I still need to figure out how to import images in carousel. */}
       {/* Carousel */}
       <div className='homeCarousel'>
         <Carousel>
@@ -50,10 +51,20 @@ export default function Home() {
           </Carousel.Item>
         </Carousel>
       </div>
+
       {/* Header */}
       <div className="homeHeader">
         <h1 className="homeName">Ramiro Peña</h1>
       </div>
+
+      {/* Portrait */}
+      <div className='portrait'>
+        <img src='' alt='' />
+      </div>
+
+      {/* Break line */}
+      <hr className='homeHR'></hr>
+
     </div>
   );
 }
