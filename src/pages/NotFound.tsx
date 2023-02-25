@@ -18,6 +18,12 @@ export default function NotFound() {
           <Link className="notLink" to = '/'>Return to Home Page</Link>
         </button>
       </div>
+      {/* Figure out how to upload player using typescript!!!!!!!!!!!!!! */}
+      {/* <div className="notPlayer">
+        <audio controls autoPlay preload="metadata">
+          <source src="src\audio\uplifting-africa.mp3" type="audio/mpeg"/>
+        </audio>
+      </div> */}
 
     </div>
   );
