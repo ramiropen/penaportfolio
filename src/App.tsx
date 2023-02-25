@@ -2,7 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
-import './assets/CSS/style.css'
+import './assets/CSS/style.css';
+import "bootstrap/dist/css/bootstrap.css";
 
 export default function App() {
   return (
@@ -15,6 +16,8 @@ export default function App() {
 
         </Routes>
       </BrowserRouter>
+      <div>
+      </div>
     </div>
   )
 }
