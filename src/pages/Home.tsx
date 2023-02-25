@@ -28,7 +28,7 @@ export default function Home() {
           <Carousel.Item interval={500}>
             <img
               className="d-block w-100"
-              src="holder.js/800x400?text=Second slide&bg=282c34"
+              src="src\images\caru-2.jpg"
               alt="Second slide"
             />
             <Carousel.Caption>
@@ -39,7 +39,7 @@ export default function Home() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="holder.js/800x400?text=Third slide&bg=20232a"
+              src="src\images\caru-3.jpg"
               alt="Third slide"
             />
             <Carousel.Caption>
