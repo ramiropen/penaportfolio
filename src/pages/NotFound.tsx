@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"; 
 // importing styles directly into tsx file!
 import "../assets/CSS/style.css";
-import '../images/404BG.jpg';
 
 
 export default function NotFound() {
