@@ -1,6 +1,7 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import LoanCalculator from "./LoanCalculator";
 
+
 describe("Render text", () => {
   test("Loan Calculator", () => {
     render(<LoanCalculator />);
