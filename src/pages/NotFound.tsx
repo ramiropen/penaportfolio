@@ -1,28 +1,21 @@
 import { Link } from "react-router-dom";
 // importing styles directly into tsx file!
+import "bootstrap/dist/css/bootstrap.min.css";
+import Card from "react-bootstrap/Card";
 
 export default function NotFound() {
   return (
     <div className="notFoundWrapper">
-      {/* background image */}
-      <div className="bgNotFound">
-        <img src="src\images\404BG.jpg" alt="" className="" />
-      </div>
-      {/* return home button */}
-      <div className="notFoundP">
-        <h2> Uh Oh 404!</h2>
-        <p>Looks like Mufasa has some explaining to do. Let's try again.</p>
+      <div className="notFoundOverlay">
+        <h2 className="notFoundH">Uh Oh 404!</h2>
+        <Card.Text className="nFoundText">
+          Looks like Mufasa has some explaining to do. Let's try again.
+        </Card.Text>
         <button className="homeButton">
           <Link className="notLink" to="/">
             Return Home
           </Link>
         </button>
-      </div>
-      {/* Figure out how to upload player using typescript!!!!!!!!!!!!!! */}
-      <div className="notPlayer">
-        <audio controls autoPlay preload="metadata">
-          <source src="src\audio\uplifting-africa.mp3" type="audio/mpeg" />
-        </audio>
       </div>
     </div>
   );

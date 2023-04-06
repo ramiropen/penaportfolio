@@ -15,6 +15,7 @@
     font-family: 'Signika', sans-serif;
 }
 
+/* --------------------------------Home----------------------------------- */
 .homeWrapper {
     background-image: url('../../images/home-BG.jpg');
     width: 100%;
@@ -27,7 +28,7 @@
     /* bg-size cover is cropping image for you. Dope! */
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
 }
 
@@ -77,6 +78,7 @@
     color: var(--SWhite);
 }
 
+/* -----------------------------404 Page--------------------------------------- */
 .notFoundWrapper {
     background-image: url('../../images/404BG.jpg');
     width: 100%;
@@ -84,66 +86,61 @@
     max-width: 100%;
     max-width: 100%;
     opacity: 92%;
-    padding-left: 240px;
-    padding-top: 285px;
+    padding-top: 350px;
     /* bg-size cover is cropping image for you. Dope! */
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
 }
 
-h2 {
-    color: var(--Tan);
-    opacity: 100%;
+
+.notFoundOverlay {
+    background-color: #03045e;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    opacity: 70%;
+    box-shadow: 4px 5px 3px var(--Gray);
 }
 
-p {
+.notFoundH {
     color: var(--Tan);
     opacity: 100%;
+    text-align: center;
 }
 
-.notLink {
+.nFoundText {
     color: var(--Tan);
-    background-color: var(--DRed);
-    transition: 0.1s;
     opacity: 100%;
-    text-decoration: none;
-    padding-bottom: 2.5px;
-    padding-top: 2.5px;
-}
-
-.notLink:hover {
-    background-color: var(--DBlue);
-    color: var(--Tan);
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .homeButton {
-    /* border: 3px solid; */
-    border-radius: 1vh;
-    /* color: var(--DBlue); */
-    opacity: 100%;
-    transition: 0.1s;
+   background-color: #00b4d8;
+   border-radius: 5px;
+   box-shadow: 2px 3px 3px var(--Gray);
 }
 
 .homeButton:hover {
-    color: var(--DBlue);
+    background-color: var(--DBlue);
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px var(--Gray);
 }
 
-.notFoundP {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    min-height: 28vh;
-    opacity: 80%;
-    position: relative;
-    text-align: center;
-    justify-content: space-around;
-    /* border: 3px solid; */
-    border-radius: 10px;
-    width: 500px;
-    height: 20px;
-    background-color: var(--DRed);
+.notLink {
     color: var(--DBlue);
+    text-decoration: none; 
+}
+
+.notLink:hover {
+    color: var(--SWhite);
+    text-decoration: none; 
 }
